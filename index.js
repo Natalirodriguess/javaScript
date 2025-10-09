@@ -72,7 +72,7 @@ while (i <= 10){
 // do while loop
 
 i = 1
-do {
-    console.log("Numero do while: " + i )
+do { // executa antes de verificar a condição
+    console.log("Numero do while: " + i ) 
     i++
 } while (i<=10)
