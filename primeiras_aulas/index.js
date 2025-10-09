@@ -59,6 +59,7 @@ switch (mesAno){
 
 // for loop
 
+
 for(let i = 10; i<=20; i++){
     console.log('Numero: ' + i)
 }
@@ -76,6 +77,7 @@ do { // executa antes de verificar a condição
     console.log("Numero do while: " + i ) 
     i++
 } while (i<=10)
+<<<<<<< HEAD:primeiras_aulas/index.js
 
 // For IN loop ( for em objetos)
 const myCar = {
@@ -100,3 +102,5 @@ for(let i = 0; i<= 10; i++){
     if(i===8) break
     console.log(i)
 }
+=======
+>>>>>>> ecb4a553dcbfa5a2dd5781928b4aa3cfd8f3323f:index.js
