@@ -76,3 +76,27 @@ do { // executa antes de verificar a condição
     console.log("Numero do while: " + i ) 
     i++
 } while (i<=10)
+
+// For IN loop ( for em objetos)
+const myCar = {
+    modelo: 'BMW',
+    ano: 2023,
+    km: 68000
+}
+ 
+for(let i in myCar){
+    console.log(i, myCar[i])
+}
+
+// For OF loop
+let amigos = ['Marcos', 'Ana', 'Maria']
+
+for(let i of amigos ){
+    console.log(i)
+}
+
+// Adicionando break
+for(let i = 0; i<= 10; i++){
+    if(i===8) break
+    console.log(i)
+}
