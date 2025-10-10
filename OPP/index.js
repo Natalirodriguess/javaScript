@@ -36,3 +36,19 @@ console.log(book2)
 
 
 // criando propriedade exclusiva de um objeto
+book1.color = 'white'
+
+console.log(book1)
+
+//criando construtor 
+function CriandoBook(title, author, pages){ // primeira letra, maiuscula
+    this.title = title;
+    this.author = author;
+    this.pages = pages
+}
+
+let bookUm = new CriandoBook('TituloUm', 'AutorUm', 402)
+console.log(bookUm)
+
+// Objetos já construídos
+console.log(Math.min(1,3,4,1,2,5,9,7))
